@@ -1,1 +1,16 @@
+body {
+    background-color: #80ffff;
+}
+.container-fluid {
+    width: 90%;
+    padding-top: 20;
+   
+}
 
+.card-body {
+    background-color: #ffffff;
+    border-radius: 15px 40px 15px 40px;
+    border: 10px;
+    border
+
+}
