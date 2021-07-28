@@ -6,6 +6,11 @@ body {
     background-color: #ffffff!important;
 }
 
+#navlogo {
+    padding-right: 25px;
+}
+
+
 .container-fluid {
     width: 90%;
     padding-top: 20;
