@@ -1,6 +1,11 @@
 body {
-    background-color: #80ffff;
+    background-color: #778899;
 }
+
+.bg-light {
+    background-color: #ffffff!important;
+}
+
 .container-fluid {
     width: 90%;
     padding-top: 20;
