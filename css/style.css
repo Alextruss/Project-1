@@ -38,3 +38,11 @@ body {
     margin-right: 15px;
 
   }
+  .blockquote {
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      font-size: 2em;
+      max-width: 600px;
+      margin:auto;
+      color: gray;
+  }
