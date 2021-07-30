@@ -81,11 +81,15 @@ main {
       
   }
 .form-group {
-    width: 600px;
-    
+
+    max-width: 800px;
 }
 #emailform {
     padding-left: 50px;
     padding-right: 50px;
+    align-content: center;
 }
-  
+h3 {
+    padding-left: 50px;
+    padding-top: 20px;
+}
