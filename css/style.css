@@ -1,7 +1,6 @@
 body {
     background-color: #778899;
-    margin-right: 0mm;
-    
+   
 }
 
 .bg-light {
@@ -55,8 +54,8 @@ body {
     background-size: inherit;
     width: 100%;
     height: 700px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto 0;
+    margin-right: auto 0;
     
 }
 #projects {
@@ -68,6 +67,7 @@ body {
     background-color: #ffffff;
     width: 100%;
     height: 800px;
+    
     
 }
 .bi::before {
@@ -81,8 +81,8 @@ body {
     max-width: 800px;
 }
 #emailform {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 25%;
+    padding-right: 25%;
     align-content: center;
 }
 h3 {
