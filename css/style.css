@@ -102,16 +102,3 @@ h3 {
     font-size: 1.5em;
     text-align: center;
 }
-.col-sm {
-  background-color: #ffffff;
-  column-width: auto;
-  margin-right: 0;
-  margin-left: 0;
-  
-}
-.container {
-    padding-top: 20px;
-    padding-left: 25%;
-    padding-right: 25%;
-    align-items: center;
-}
