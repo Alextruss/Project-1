@@ -53,9 +53,16 @@ body {
     background-attachment: fixed;
     width: 100%;
     height: 800px;
+}
+.container {
+    width: fit-content;
+}
+.introduction {
     
-  
-    
+    height: auto;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 #projects {
     width: 100%;
@@ -101,7 +108,17 @@ h3 {
     font-size: 1.5em;
     text-align: center;
 }
-.col-sm {
-    background-color: #ffffff;
-    border: 5px;
+#call {
+    text-align: center;
+    
 }
+
+.introcontainer {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 600px) {
+    
+    }
+  }
