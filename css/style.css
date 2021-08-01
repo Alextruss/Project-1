@@ -53,10 +53,25 @@ body {
     background-attachment: fixed;
     width: 100%;
     height: 800px;
+    
 }
-.container {
-    width: fit-content;
+.intronest{
+    width: 100%;
+    height: 800px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+@media only screen and (max-width: 600px) {
+    .intronest {
+        width: auto;
+        position: relative;
+        margin-left: 11%;
+        margin-right: 11%;
+    }
+}
+
 .introduction {
     
     height: auto;
@@ -108,16 +123,14 @@ h3 {
     font-size: 1.5em;
     text-align: center;
 }
-#call {
-    text-align: center;
-    
+.col-sm {
+    background-color: #ffffff;
+    width: max-content;
+    border: #ffffff 5px;
+    padding-left: 50PX;
 }
 
-.introcontainer {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 @media only screen and (max-width: 600px) {
     
     }
