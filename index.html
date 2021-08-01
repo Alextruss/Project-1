@@ -44,10 +44,29 @@
       <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Your message" required></textarea>
       <div class="form-row text-center">
           <div class="col">
-              <button type="submit" class="btn btn-secondary">Submit</button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#emailmodal">Submit</button>
           </div>
       </div>
   </form>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="emailmodal" tabindex="-1" aria-labelledby="emailmodel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="emailmodelLabel">Message submitted!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Thank you for your message, I will be in contact shortly.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       </div>
+    </div>
+  </div>
 </div>
 </section>
 </main>  
