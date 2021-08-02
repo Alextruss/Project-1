@@ -131,11 +131,7 @@ a {
     font-size: 18px;
     padding-bottom: 5px;
 }
- .projects-container {
-     width: 80%;
-     margin-left: 10%;
-     margin-right: 10%;
- }
+
  .col {
      width: 400px;
      background-color: #ffffff;
@@ -147,4 +143,12 @@ a {
  .card {
      margin-bottom: 20px;
      align-content: center;
+
+ }
+ #project-container {
+     width: 80%;
+     margin-left: 10%;
+     margin-right: 10%;
+     padding-left: 10%;
+     padding-right: 10%;
  }
