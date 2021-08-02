@@ -137,5 +137,11 @@ h3 {
     font-size: 18px;
     align-content: center;
 }
-
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
  
