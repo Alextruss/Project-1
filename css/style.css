@@ -142,9 +142,9 @@ a {
     
  }
  .card-body {
-     width: 420px;
+     width: 340px;
  }
  .card {
-     align-items: center;
      margin-bottom: 20px;
+     align-content: center;
  }
