@@ -67,11 +67,12 @@ body {
 
 @media only screen and (max-width: 600px) {
     .intronest {
-        width: 80%;
+        width: 400px;
         height: auto;
         margin-left: 11%;
         margin-right: 11%;
         padding-bottom: 20px;
+        
     }
 }
 
@@ -140,4 +141,8 @@ h3 {
 @media only screen and (max-width: 600px) {
     
     }
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
