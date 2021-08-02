@@ -113,21 +113,8 @@ h3 {
     padding-left: 50px;
     padding-top: 20px;
 }
-.card {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #ffffff;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.card-body {
-    background-color: #ffffff;
-}
-.card-text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5em;
-    text-align: center;
-}
+
+
 .col-sm {
     background-color: #ffffff;
     width: 400px;
@@ -144,4 +131,20 @@ a {
     font-size: 18px;
     padding-bottom: 5px;
 }
- 
+ .projects-container {
+     width: 80%;
+     margin-left: 10%;
+     margin-right: 10%;
+ }
+ .col {
+     width: 400px;
+     background-color: #ffffff;
+    
+ }
+ .card-body {
+     width: 340px;
+ }
+ .card {
+     align-items: center;
+     margin-bottom: 20px;
+ }
