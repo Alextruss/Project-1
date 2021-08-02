@@ -74,6 +74,10 @@ body {
         padding-bottom: 20px;
         
     }
+    img {
+        max-width: 300px%;
+        height: auto;
+      }
 }
 
 .introduction {
@@ -137,12 +141,4 @@ h3 {
     align-content: center;
 }
 
-
-@media only screen and (max-width: 600px) {
-    
-    }
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+ 
