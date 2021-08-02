@@ -142,7 +142,8 @@ a {
     
  }
  .card-body {
-     width: 360px;
+     min-width: 360px;
+     max-width: 400px;
  }
  .card {
      align-items: center;
