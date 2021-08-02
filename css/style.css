@@ -67,7 +67,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     .intronest {
-        width: 400px;
+        width: 80%;
         height: auto;
         margin-left: 11%;
         margin-right: 11%;
