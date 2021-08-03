@@ -86,7 +86,7 @@ body {
 }
 #projects {
     width: 100%;
-    height: auto;
+    height: 500px;
     
 }
 #contact {
@@ -141,14 +141,15 @@ a {
      width: 300px;
  }
  .card {
-     width: 340px;
+     width: 300px;
      margin-bottom: 20px;
      align-content: center;
+     float: left;
 
  }
  #project-container {
      width: 80%;
-     
+     margin-left: 25%;
  }
 
 
