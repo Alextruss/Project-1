@@ -138,7 +138,7 @@ a {
     
  }
  .card-body {
-     width: 340px;
+     width: 300px;
  }
  .card {
      margin-bottom: 20px;
@@ -152,3 +152,6 @@ a {
      padding-left: 10%;
      padding-right: 10%;
  }
+
+
+ 
