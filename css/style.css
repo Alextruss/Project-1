@@ -87,7 +87,8 @@ body {
 }
 #projects {
     width: 100%;
-    height: 600px;
+    max-height: 750px;
+    min-height: 400px;
     
 }
 #contact {
@@ -114,6 +115,7 @@ body {
 h3 {
     padding-left: 50px;
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 
@@ -156,6 +158,7 @@ a {
  }
  #project-container {
     width: 80%;
+    height: auto;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -164,11 +167,15 @@ a {
      width: 80%;
      padding-left: 5%;
      padding-right: 5%;
+     height: 750px;
  }
 }
 #langlogo {
     padding-right: 4px;
     padding-left: 4px;
 }
-
+#phone {
+    text-align: center;
+    font-size: 24px;
+}
  
