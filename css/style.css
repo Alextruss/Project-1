@@ -118,11 +118,19 @@ h3 {
 .col-sm {
     background-color: #ffffff;
     width: auto;
-    border: 5px;
+    
     padding-top: 5px;
     text-align: center;
     font-size: 18px;
     align-content: center;
+}
+.row {
+    display: -ms-flexbox;
+    
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+    margin-left: -15px;
 }
 a {
     color: #000000;
@@ -152,6 +160,9 @@ a {
      margin-left: auto;
      margin-right: auto;
  }
-
+#langlogo {
+    padding-right: 4px;
+    padding-left: 4px;
+}
 
  
