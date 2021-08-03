@@ -87,8 +87,8 @@ body {
 }
 #projects {
     width: 100%;
-    
-    background-size: cover;
+    max-height: 750px;
+    min-height: 400px;
     
 }
 #contact {
@@ -160,7 +160,7 @@ a {
  }
  #project-container {
     width: 80%;
-    height: auto;
+    height: 500px;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -179,6 +179,6 @@ a {
 #phone {
     text-align: center;
     font-size: 24px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
  
