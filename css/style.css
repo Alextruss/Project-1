@@ -117,7 +117,7 @@ h3 {
 
 .col-sm {
     background-color: #ffffff;
-    width: 400px;
+    width: auto;
     border: 5px;
     padding-top: 5px;
     text-align: center;
