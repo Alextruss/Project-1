@@ -53,6 +53,7 @@ body {
     background-attachment: fixed;
     width: 100%;
     height: auto;
+    margin-bottom: 0px;
 
     
 }
@@ -87,12 +88,13 @@ body {
 #projects {
     width: 100%;
     height: 500px;
-    
+    margin-top: 0px;
 }
 #contact {
     background-color: #ffffff;
     width: 100%;
     height: 800px;
+    padding-top: 5px;
     
     
 }
@@ -111,7 +113,7 @@ body {
 }
 h3 {
     padding-left: 50px;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 
