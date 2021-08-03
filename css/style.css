@@ -134,6 +134,7 @@ h3 {
     display: -ms-flexbox;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    height: auto;
     }
 a {
     color: #000000;
@@ -158,6 +159,11 @@ a {
      float: left;
 
  }
+ .card2 {
+    width: 320px;
+    margin-bottom: 20px;
+    align-content: center;
+    float: right;
  #project-container {
     width: 80%;
     height: 500px;
