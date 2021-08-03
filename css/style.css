@@ -117,7 +117,9 @@ h3 {
     padding-top: 10px;
     padding-bottom: 20px;
 }
-
+#social-media {
+    margin-top: 25px;
+}
 
 .col-sm {
     background-color: #ffffff;
@@ -177,5 +179,6 @@ a {
 #phone {
     text-align: center;
     font-size: 24px;
+    margin-bottom: 20px;
 }
  
