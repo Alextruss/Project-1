@@ -159,11 +159,10 @@ a {
      float: left;
 
  }
-
-
+ 
  #project-container {
     width: 80%;
-    height: 500px;
+    height: fit-content;
     padding-left: 10%;
     padding-right: 10%;
 }
