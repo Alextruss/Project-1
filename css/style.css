@@ -122,18 +122,23 @@ h3 {
 
 .col-sm {
     background-color: #ffffff;
-    width: auto;
-    
+    width: 100%;
+    position: relative;
     padding-top: 5px;
+padding-right: 15px;
+    padding-left: 15px;
     text-align: center;
     font-size: 18px;
     align-content: center;
 }
 .row {
     display: -ms-flexbox;
+    display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     height: auto;
+    margin-right: -15px;
+    margin-left: -15px;
     }
 a {
     color: #000000;
