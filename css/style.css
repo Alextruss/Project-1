@@ -154,23 +154,37 @@ a {
     
  }
  .card-body {
-     width: 300px;
+     width: 110%;
  }
  .card {
      width: 320px;
+     margin-right: 20px;
+     margin-left: auto;
      margin-bottom: 20px;
      align-content: center;
      float: left;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
 
  }
  
  #project-container {
-    width: auto;
+    width: 100%;
     height: 100%;
     min-height: 500px;
-    padding-left: 10%;
-    padding-right: 10%;
     overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
 }
  @media only screen and (max-width: 500px) {
  #project-container {
@@ -178,6 +192,9 @@ a {
      padding-left: 5%;
      padding-right: 5%;
      height: 750px;
+     margin-right: auto;
+    margin-left: auto;
+    position: relative;
  }
 
 
