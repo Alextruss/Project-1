@@ -185,16 +185,19 @@ a {
     margin-right: auto;
     margin-left: auto;
     position: relative;
+    padding-left: auto;
+    padding-right: auto;
 }
  @media only screen and (max-width: 500px) {
  #project-container {
-     width: 340px;
-     padding-left: 5%;
-     padding-right: 5%;
+     width: 320px;
+     padding-left: auto;
+     padding-right: auto;
      height: 750px;
      margin-right: auto;
     margin-left: auto;
     position: relative;
+    
  }
 
 
