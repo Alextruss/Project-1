@@ -134,13 +134,7 @@ padding-right: 15px;
     align-content: center;
 }
 .row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    height: auto;
-    margin-right: -15px;
-    margin-left: -15px;
+    
     }
 a {
     color: #000000;
@@ -159,17 +153,14 @@ a {
      width: 90%;
  }
  .card {
-     width: 320px;
-     margin-right: auto;
-     margin-left: auto;
+     max-width: 900px;
+     margin-right: 10%;
+     margin-left: 10%;
      margin-bottom: 20px;
-     align-content: center;
-     float: left;
+     ;
+     
     position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    
     min-width: 0;
     word-wrap: break-word;
     background-color: #fff;
@@ -228,8 +219,4 @@ a {
    border: 1px solid rgba(0,0,0,.125);
    border-radius: .25rem;
 
-}
-img {
-width: 100%;
-height: auto;
 }
