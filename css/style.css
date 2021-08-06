@@ -229,4 +229,7 @@ a {
    border-radius: .25rem;
 
 }
+img {
+width: 100%;
+height: auto;
 }
