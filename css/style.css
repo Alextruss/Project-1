@@ -87,6 +87,7 @@ body {
 }
 #projects {
     width: 100%;
+    height: 100%;
 
     
 }
@@ -150,17 +151,16 @@ a {
     
  }
  .card-body {
-     width: 90%;
+     margin: auto;
+     
  }
  .card {
-     max-width: 900px;
-     margin-right: 10%;
-     margin-left: 10%;
-     margin-bottom: 20px;
-     ;
-     
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    align-content: center;
     position: relative;
-    
     min-width: 0;
     word-wrap: break-word;
     background-color: #fff;
@@ -173,7 +173,6 @@ a {
  #project-container {
     width: 100%;
     height: 100%;
-    min-height: 500px;
     overflow: auto;
     margin-right: auto;
     margin-left: auto;
@@ -219,4 +218,8 @@ a {
    border: 1px solid rgba(0,0,0,.125);
    border-radius: .25rem;
 
+}
+img {
+width: 100%;
+height: auto;
 }
