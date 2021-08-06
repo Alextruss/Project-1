@@ -168,7 +168,9 @@ a {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
 
- }
+ } 
+ 
+
  
  #project-container {
     width: 100%;
@@ -200,6 +202,7 @@ a {
     padding-left: 4px;
 }
 #phone {
+    padding: 5px;
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
