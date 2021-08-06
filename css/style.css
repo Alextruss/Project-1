@@ -1,8 +1,9 @@
+/* body styling */
 body {
     background-color: #778899;
    
 }
-
+/* Bootstarp nav bar styling to change appearence to make unique to my site */
 .bg-light {
     background-color: #ffffff!important;
     position: fixed;
@@ -47,7 +48,7 @@ body {
     justify-content: space-between;
     padding: .5rem .5rem;
 }
-
+/* End of navbar styling */
 #intro {
     background-image: url(https://images.unsplash.com/photo-1610466896927-699424f3c86d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80S);
     background-attachment: fixed;
