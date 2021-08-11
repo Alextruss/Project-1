@@ -195,6 +195,25 @@ a {
     align-content: center;
 }
 
+/* styling for contact form */
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1 solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
 /* styling for contact options at the bottom of the page (includes whatsapp and facebook links) */
 
 #phone {
@@ -223,6 +242,7 @@ footer {
     text-align: center;
     font-size: 20px;
     color: #ffffff;
+    padding-top: 5px;
 }
 /* @media specific css for mobile device styling */
 
