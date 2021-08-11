@@ -243,7 +243,7 @@ height: auto;
 
     @media only screen and (max-width: 500px) {
     #codelogo {
-        width: 288px;
+        width: auto;
         height: auto;
     }
 }
