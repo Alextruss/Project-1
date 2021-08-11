@@ -72,6 +72,12 @@ body {
     padding-bottom: 20px;
 }
 
+.introduction {
+    height: auto;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 #langlogo {
     padding-right: 4px;
