@@ -217,14 +217,17 @@ a {
 /* styling for contact options at the bottom of the page (includes whatsapp and facebook links) */
 
 #phone {
-    padding: 5px;
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 30px;
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
 }
 
 #social-media {
-    margin-top: 25px;
+    margin-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -242,7 +245,7 @@ footer {
     text-align: center;
     font-size: 20px;
     color: #ffffff;
-    padding-top: 5px;
+    padding-top: 8px;
 }
 /* @media specific css for mobile device styling */
 
