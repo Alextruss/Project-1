@@ -3,6 +3,22 @@ body {
     background-color: #778899;
 }
 
+/* styling for generic styles such as headings and anchor points */
+
+h3 {
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
 /* Bootstarp nav bar styling to change appearence to make unique to my site */
 .bg-light {
     background-color: #ffffff!important;
@@ -119,29 +135,6 @@ body {
     height: 100%;
 }
 
-
-
-h3 {
-    padding-left: 50px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
-#social-media {
-    margin-top: 25px;
-    padding-bottom: 20px;
-}
-
-
-
-a {
-    color: #000000;
-    text-decoration: none;
-    background-color: transparent;
-    font-size: 18px;
-    padding-bottom: 5px;
-}
-
  .col {
      width: 400px;
      background-color: #ffffff;
@@ -177,12 +170,18 @@ a {
     padding-right: auto;
 }
 
+/* End of styling for project section and content */
+
+/* styling for contact section and content */
+
 #contact {
     background-color: #ffffff;
     width: 100%;
     height: 100%;
     padding-bottom: 40px;
 }
+
+/* styling for bootstrap icons */
 
 .bi::before {
     font-size: 50px;
@@ -204,6 +203,12 @@ a {
     font-size: 24px;
     margin-bottom: 20px;
 }
+
+#social-media {
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
 
 /* styling for all site images, allowing them to grow and shrink according to screen size and resolution */
 
