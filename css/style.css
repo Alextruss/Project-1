@@ -80,8 +80,17 @@ body {
 }
 
 #langlogo {
-    padding-right: 4px;
-    padding-left: 4px;
+    width: auto;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 20px;
+    vertical-align: middle;
+    position: relative;
+}
+
+#codelogo {
+    width: 288px;
+    height: auto;
 }
 
 #projects {
@@ -124,11 +133,12 @@ h3 {
     width: 100%;
     position: relative;
     padding-top: 5px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
     text-align: center;
     font-size: 18px;
     align-content: center;
+    vertical-align: middle;
 }
 
 a {
