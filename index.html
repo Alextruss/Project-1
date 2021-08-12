@@ -52,6 +52,7 @@
   <section id="intro">
     <div class="intronest">
       <div class="row">
+        <!--col-sm taken from Bootstrap grid layout-->
         <div class="col-sm">
          <h4>Hello and welcome to not only my portfolio but also my journey.</h4>
          <p>Since gaining my HND in Interactive Digital Media in 2003, my life took a different route.</p>
@@ -60,6 +61,8 @@
         <p>I am currently studying with the Code Insitute as a Full Stack Developer, studying a range of languages and frameworks such as HTML 5, CSS3, Java Script and many more. </p>
         </div>
         <div class="col-sm">
+
+<!--Picture contains mmedia opions for max 499px and min 500px to display smaller or larger resolution images dependant on the screen size-->
           <picture>
             <source media="(max-width: 499px)" srcset="images/languageslogos2-280w.jpg">
             <source media="(min-width: 500px)" srcset="images/languageslogos2.jpg">
@@ -87,7 +90,7 @@
 
 <div id="project-container">
 
-      <!--each project example is contained in card compnent, copy amd paste below to add more-->
+      <!--each project example is contained in card compnent (bootstrap componant), copy amd paste below to add more-->
   
       <div class="card">
     <div class="card-body">
@@ -110,7 +113,7 @@
 
 <!--Project section end-->
 
-<!--Start of Contact section. Contains contact form and links to whatsapp, messsenger and facebook-->
+<!--Start of Contact section. Contains contact form (a Bootstrap componant) and links to whatsapp, messsenger and facebook-->
 
 <a id="contact-anchor"></a>
 <section id="contact">
@@ -129,7 +132,7 @@
   </form>
 </div>
 
-<!-- Modal script for pop up after filling in the contact form-->
+<!-- Modal script from Bootstrap, controls pop up after filling in the contact form-->
 
 <div class="modal fade" id="emailmodal" tabindex="-1" aria-labelledby="emailmodelLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -149,12 +152,13 @@
     </div>
   </div>
 </div>
-
 <!--End of modal script-->
 
 <div id="phone">
   <p id="contact-text">Or contact me via one of the links below.</p>
   <p><i class="bi bi-telephone">07898143031</i></p>
+  
+<!--i class taken from bootstrap icons and linked to relevent stylesheet-->
 <div id="social-media"><p><a href="https://www.facebook.com/profile.php?id=100066167559321"><i class="bi bi-facebook"></i></a><a href="https://wa.me/447898143031"><i class="bi bi-whatsapp"></i></a><a href="https://m.me/100066167559321"><i class="bi bi-messenger"></i></a></p></div>
 
 </div>
