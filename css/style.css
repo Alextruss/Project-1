@@ -270,7 +270,7 @@ footer {
            width: 90%;
            padding-left: 5px;
            padding-right: 5px;
-           height: 750px;
+           min-height: 600px;
            margin-right: auto;
            margin-left: auto;
            position: relative;
