@@ -295,5 +295,7 @@ footer {
     #codelogo {
         width: auto;
         height: auto;
+        padding-right: 15%;
+        padding-left: 15%;
     }
 }
