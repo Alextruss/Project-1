@@ -119,8 +119,6 @@ font-size: 1.25em;
 
 #langlogo {
     width: auto;
-    padding-right: 5%;
-    padding-left: 5%;
     padding-top: 20px;
     vertical-align: middle;
     position: relative;
@@ -295,7 +293,6 @@ footer {
     #codelogo {
         width: auto;
         height: auto;
-        padding-right: 15%;
-        padding-left: 15%;
+        position: relative;
     }
 }
