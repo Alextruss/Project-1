@@ -35,13 +35,44 @@ I decided early on that the site needed to be a single page design to make it ea
 <li>HTML 5
 <li>CSS
 <li>Java Script
-<li>Bootstrap
+<li>Bootstrap for responsive design and page componants
+<li>Google fonts for additional font used on the site
 </ul>
+
 
 ## Final Design screenshots
 
 <img src="images/ssdesktop.jpg" width="500px" height="auto">
-<br>
+
+
 <img src="images/ssmobile1.jpg" width="300px" height="auto">
 <img src="images/ssmobile2.jpg" width="300px" height="auto">
 <img src="images/ssmobile3.jpg" width="300px" height="auto">
+
+
+## Testing
+My site has been tested on both desktops and a range of mobile phones.
+I ave cross platform tested on Chrome, Firefox, Safari as well as both samsungs and Huawei's defult browsers. 
+I forwarded the link and screenshots taken on my device,to 3 peers who i knew had different mobile devices. One an Iphone 12, One a Samsung S20 and the third a Huawei P30 Pro. I Asked them to rely with answers to 3 questions:
+<ol>
+<li> Does the site display on your device in a similar manor to the screenshots in terms of layout and content?
+<li> Did you find it easy to understand and navigate the site?
+<li> Did all navigation links, both at the top and in the contact me section work correctly?
+</ol>
+
+All three responded yes to each question.
+
+The final site was tested and validated with [WC3 HTML Validator](https://validator.w3.org/) and [WC3 CSS Validator](https://jigsaw.w3.org/css-validator/). Both returned fully validated with the exception of a few warnings regarding some of the Bootstrap style. I was told this is expected and does not effect my code.
+
+## Deployment and cloning
+
+To creat and publish my project I used Github to create the repositories. This one can be found at https://github.com/Alextruss/Project-1 
+
+to clone the repository you will need to access this link, then Select the code button. This will give you access to clone the repository or download a zip copy of the repository.
+
+## Credits (element sources)
+
+Background image used in inro section - unsplash.com
+(https://images.unsplash.com/photo-1610466896927-699424f3c86d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80S)
+
+
