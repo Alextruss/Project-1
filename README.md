@@ -40,4 +40,8 @@ I decided early on that the site needed to be a single page design to make it ea
 
 ## Final Design screenshots
 
-<img scr="images/ssdesktop.jpg" width="500px" height="auto">
+<img src="images/ssdesktop.jpg" width="500px" height="auto">
+<br>
+<img src="images/ssmobile1.jpg" width="300px" height="auto">
+<img src="images/ssmobile2.jpg" width="300px" height="auto">
+<img src="images/ssmobile3.jpg" width="300px" height="auto">
