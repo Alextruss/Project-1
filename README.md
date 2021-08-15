@@ -72,7 +72,27 @@ to clone the repository you will need to access this link, then Select the code 
 
 ## Credits (element sources)
 
-Background image used in inro section - unsplash.com
+Background image used in inro section - unsplash.com:
 (https://images.unsplash.com/photo-1610466896927-699424f3c86d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80S)
 
+Navigation bar code from Bootstrap: 
+https://getbootstrap.com/docs/4.6/components/navbar/
+
+Flexbox grid system code from Bootstrap:
+https://getbootstrap.com/docs/4.3/layout/grid/
+
+Card component from bootstrap:
+https://getbootstrap.com/docs/4.6/components/card/
+
+Contact form from Bootstrap: 
+https://getbootstrap.com/docs/4.6/components/forms/
+
+Modal popup from boostrap:
+https://getbootstrap.com/docs/4.6/components/modal/
+
+Whatsapp, Facebook and Messenger icons:
+https://icons.getbootstrap.com/
+
+Code Institute Graphics:
+https://codeinstitute.net/ and Emails sent to me from the Code Institute.
 
