@@ -28,6 +28,7 @@ I decided early on that the site needed to be a single page design to make it ea
 ### Wireframe
 <img src="images/wireframe.JPG">
 
+I want to stck with a minialistic design, using greys, white and blue as my colour scheme.
 
 ## Technologies Used
 
