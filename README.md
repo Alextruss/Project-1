@@ -97,3 +97,5 @@ https://icons.getbootstrap.com/
 Code Institute Graphics:
 https://codeinstitute.net/ and Emails sent to me from the Code Institute.
 
+Each of my to examples on the portfolio section are from Code Institutes examples used in the training modules.
+
