@@ -21,7 +21,23 @@ Returning visitor goals
 <li>Allow visitors to access my new social media links.
 </ul>
 
-##Design
+## Design
 
-I decided early on that the site needed to be a single page design to make it easier for mobile navigation. It will be a responsive design to allow it to seemlessly transition between mobile devices and desktop/laptop PC's.
+I decided early on that the site needed to be a single page design to make it easier for mobile navigation. It will be a responsive design to allow it to seemlessly transition between mobile devices and desktop/laptop PC's. The site navigation will be located at the top, with links to return to top situated in each secton of the site.
+
+### Wireframe
 <img src="images/wireframe.JPG">
+
+
+## Technologies Used
+
+<ul>
+<li>HTML 5
+<li>CSS
+<li>Java Script
+<li>Bootstrap
+</ul>
+
+## Final Design screenshots
+
+<img scr="images/ssdesktop.jpg" width="500px" height="auto">
