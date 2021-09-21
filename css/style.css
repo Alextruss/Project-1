@@ -1,14 +1,14 @@
+/* body styling */
 body {
     background-color: #778899;
     font-family: 'Rubik', sans-serif;
 }
-
+/* styling for generic styles such as headings and anchor points */
 h3 {
     padding-left: 50px;
     padding-top: 10px;
     padding-bottom: 20px;
 }
-
 a {
     color: #000000;
     text-decoration: none;
@@ -16,7 +16,7 @@ a {
     font-size: 18px;
     padding-bottom: 5px;
 }
-
+/* Bootstarp nav bar styling to change appearence to make unique to my site */
 .bg-light {
     background-color: #ffffff!important;
     position: fixed;
@@ -24,11 +24,10 @@ a {
     font-size: 1.1em;
     color: #000000;
 }
-
+/* customer site logo */
 #navlogo {
     padding-right: 25px;
 }
-
 .navbar-collapse {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
@@ -37,8 +36,8 @@ a {
     -ms-flex-align: center;
     align-items: center;
 }
-
 .navbar-nav {
+    display: ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -52,7 +51,6 @@ a {
 .nav-link {
 font-size: 1.25em;
 }
-
 .navbar {
     position: relative;
     display: -ms-flexbox;
@@ -65,7 +63,8 @@ font-size: 1.25em;
     justify-content: space-between;
     padding: .5rem .5rem;
 }
-
+/* End of navbar styling */
+/* styling for inroduction section and content */
 #intro {
     background-image: url(https://images.unsplash.com/photo-1610466896927-699424f3c86d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80S);
     background-attachment: fixed;
@@ -73,7 +72,6 @@ font-size: 1.25em;
     height: auto;
     margin-bottom: 0px;
 }
-
 .intronest {
     width: 80%;
     height: auto;
@@ -82,14 +80,12 @@ font-size: 1.25em;
     margin-right: 10%;
     padding-bottom: 20px;
 }
-
 .introduction {
     height: auto;
     position: relative;
     margin-left: 10%;
     margin-right: 10%;
 }
-
 .col-sm {
     background-color: #ffffff;
     width: 100%;
@@ -103,33 +99,30 @@ font-size: 1.25em;
     align-content: center;
     vertical-align: middle;
 }
-
+/* Independant stying for intro images to allow them to work with the flexbox */
 #langlogo {
     width: auto;
     padding-top: 20px;
     vertical-align: middle;
     position: relative;
 }
-
 #codelogo {
     width: 288px;
     height: auto;
 }
-
+/* End of introduction styling */
+/* styling for all elements in the project section */
 #projects {
     width: 100%;
     height: 100%;
 }
-
  .col {
      width: 400px;
      background-color: #ffffff;
 }
-
  .card-body {
      margin: auto;
 }
-
  .card {
     width: 60%;
     margin-right: auto;
@@ -155,26 +148,26 @@ font-size: 1.25em;
     padding-left: 5px;
     padding-right: 5px;
 }
-
+/* End of styling for project section and content */
+/* styling for contact section and content */
 #contact {
     background-color: #ffffff;
     width: 100%;
     height: 100%;
     padding-bottom: 40px;
 }
-
+/* styling for bootstrap icons */
 .bi::before {
     font-size: 50px;
     vertical-align: middle;
     margin-right: 15px;
 }
-
 #emailform {
     padding-left: 15%;
     padding-right: 15%;
     align-content: center;
 }
-
+/* styling for contact form */
 .form-control {
     display: block;
     width: 100%;
@@ -191,7 +184,7 @@ font-size: 1.25em;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
+/* styling for contact options at the bottom of the page (includes whatsapp and facebook links) */
 #phone {
     padding-top: 50px;
     padding-left: 5px;
@@ -201,24 +194,23 @@ font-size: 1.25em;
     font-size: 24px;
     margin-bottom: 20px;
 }
-
 #social-media {
     margin-top: 50px;
     padding-bottom: 20px;
 }
-
+/* styling for all site images, allowing them to grow and shrink according to screen size and resolution */
 img {
 width: 100%;
 height: auto;
 }
-
+/* Footer styling */
 footer {
     text-align: center;
     font-size: 20px;
     color: #ffffff;
     padding-top: 8px;
 }
-
+/* @media specific css for mobile device styling */
 @media only screen and (max-width: 500px) { 
     .card {
         width: 100%;
@@ -237,13 +229,13 @@ footer {
            width: 90%;
            padding-left: 5px;
            padding-right: 5px;
+           height: 750px;
            min-height: 600px;
            margin-right: auto;
            margin-left: auto;
            position: relative;
        }
     }       
-
        @media only screen and (max-width: 500px) {
         .intronest {
             width: 80%;
@@ -255,7 +247,6 @@ footer {
         }
         
     }
-
     @media only screen and (max-width: 500px) {
     #codelogo {
         width: auto;
