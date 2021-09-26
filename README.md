@@ -76,6 +76,9 @@ to clone the repository you will need to access this link, then Select the code 
 Background image used in inro section - unsplash.com:
 (https://images.unsplash.com/photo-1610466896927-699424f3c86d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80S)
 
+Wales outline image:
+https://www.pikpng.com/pngvi/hThhRhT_wales-map-england-png-image-outline-map-of-wales-clipart/
+
 Navigation bar code from Bootstrap: 
 https://getbootstrap.com/docs/4.6/components/navbar/
 
