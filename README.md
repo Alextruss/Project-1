@@ -52,8 +52,21 @@ I want to stck with a minialistic design, using greys, white and blue as my colo
 
 
 ## Testing
-My site has been tested on both desktops and a range of mobile phones.
-I have cross platform tested on Chrome, Firefox, Safari as well as both samsungs and Huawei's default browsers. 
+
+### Cross Browser Testing
+
+<img src="images\readme-assets\chromescreensm.jpg" width="600px" height="auto">
+<img src="images\readme-assets\firefoxscreensm.jpg" width="600px" height="auto">
+<img src="images\readme-assets\edgescreensm.jpg" width="600px" height="auto">
+<img src="images\readme-assets\safariscreensm.jpg" width="600px" height="auto">
+
+I have cross browser tested on Chrome, Firefox, Safari and Edge. The result is very universal across Chrome, Firefox and Edge, with all elements performing and displaying as expected. On Safari However I notice a few issues. 
+<ul>
+<li> Navigation menu doesnt display at 100% browser size
+<li> Background image for intro section doesnt display.
+</ul>
+
+as well as both samsungs and Huawei's default browsers. 
 I forwarded the link and screenshots taken on my device,to 3 peers who I knew had different mobile devices. One an Iphone 12, One a Samsung S20 and the third a Huawei P30 Pro. I Asked them to rely with answers to 3 questions:
 <ol>
 <li> Does the site display on your device in a similar manor to the screenshots in terms of layout and content?
