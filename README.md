@@ -53,6 +53,13 @@ I want to stck with a minialistic design, using greys, white and blue as my colo
 
 ## Testing
 
+### Basic Use Test
+
+MY first test was to manually test each link and element on the site. I carried out this test on both desktop and mobile devices. Each link in the navigation bar worked as expected, opening in a new tab. Each <img src="images\readme-assets\rtnhome.jpg" width="50px" height="auto"> succesfully returned the page to the top nav bar.
+When tested on mobile devices the social media links successfully loaded the relevent app and allowed for expected usage.
+The email form was designed to not actually send an email at this point but just to display the modal popup message. This worked perfectly on all browswers and platforms.
+<img src="images\readme-assets\modaldisplay.jpg" width="600px" height="auto">
+
 ### Cross Browser Testing
 
 <img src="images\readme-assets\chromescreensm.jpg" width="600px" height="auto">
@@ -66,7 +73,7 @@ I have cross browser tested on Chrome, Firefox, Safari and Edge. The result is v
 <li> Background image for intro section doesnt display.
 </ul>
 
-as well as both samsungs and Huawei's default browsers. 
+I have also tested it on 3 different default mobile browsers.. 
 I forwarded the link and screenshots taken on my device,to 3 peers who I knew had different mobile devices. One an Iphone 12, One a Samsung S20 and the third a Huawei P30 Pro. I Asked them to rely with answers to 3 questions:
 <ol>
 <li> Does the site display on your device in a similar manor to the screenshots in terms of layout and content?
