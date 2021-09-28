@@ -15,6 +15,8 @@ h3 {
     padding-bottom: 20px;
     margin-bottom: 0px;
 }
+
+/* links styling for whole page*/
 a {
     color: #000000;
     text-decoration: none;
@@ -22,6 +24,7 @@ a {
     font-size: 18px;
     padding-bottom: 5px;
 }
+
 /* Bootstarp nav bar styling to change appearence to make unique to my site */
 .bg-light {
     background-color: #ffffff!important;
@@ -30,6 +33,7 @@ a {
     font-size: 1.1em;
     color: #000000;
 }
+
 /* customer site logo */
 #navlogo {
     padding-right: 25px;
@@ -44,6 +48,8 @@ a {
     -ms-flex-align: center;
     align-items: center;
 }
+
+/* custom navbar styling */
 .navbar-nav {
     position: relative;
     display: ms-flexbox;
@@ -60,6 +66,8 @@ a {
 .nav-link {
 font-size: 1.25em;
 }
+
+/* navbar styling for desktop view */
 .navbar {
     position: relative;
     display: -ms-flexbox;
@@ -73,6 +81,7 @@ font-size: 1.25em;
     padding: .5rem .5rem;
 }
 /* End of navbar styling */
+
 /* styling for inroduction section and content */
 #intro {
     background-image: url(https://images.unsplash.com/photo-1610466896927-699424f3c86d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80S);
@@ -95,6 +104,9 @@ font-size: 1.25em;
     margin-left: 10%;
     margin-right: 10%;
 }
+
+
+/* column styling grid layout */
 .col-sm {
     background-color: #ffffff;
     width: 100%;
@@ -115,11 +127,13 @@ font-size: 1.25em;
     vertical-align: middle;
     position: relative;
 }
+/* formatting for image in intro */
 #codelogo {
     width: 288px;
     height: auto;
 }
 /* End of introduction styling */
+
 /* styling for all elements in the project section */
 #projects {
     width: 100%;
@@ -146,7 +160,8 @@ font-size: 1.25em;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
  } 
- 
+
+ /* project-container styling */
  #project-container {
     width: 100%;
     height: 100%;
@@ -158,6 +173,7 @@ font-size: 1.25em;
     padding-right: 5px;
 }
 /* End of styling for project section and content */
+
 /* styling for aboutme section and content */
 #aboutme {
     background-color: #b5bcc4;
@@ -167,6 +183,7 @@ font-size: 1.25em;
     
 }
 
+/* aboutme-card styling */
 #aboutme-card {
     background-color: #ffffff;
     border-radius: 10px;
@@ -179,6 +196,8 @@ font-size: 1.25em;
     padding-bottom: 50px;
     
 }
+
+/* styling for about me  Wales image */
 #walesimg {
     width: 100px;
     height: auto;
@@ -187,6 +206,7 @@ font-size: 1.25em;
     padding-bottom: 20px;
 }
 /* End of styling for aboutme section and content */
+
 /* styling for contact section and content */
 #contact {
     background-color: #ffffff;
@@ -194,17 +214,21 @@ font-size: 1.25em;
     height: 100%;
     padding-bottom: 40px;
 }
+
 /* styling for bootstrap icons */
 .bi::before {
     font-size: 50px;
     vertical-align: middle;
     margin-right: 15px;
 }
+
+/* Email form styling */
 #emailform {
     padding-left: 15%;
     padding-right: 15%;
     align-content: center;
 }
+
 /* styling for contact form */
 .form-control {
     display: block;
@@ -222,6 +246,7 @@ font-size: 1.25em;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
 /* styling for contact options at the bottom of the page (includes whatsapp and facebook links) */
 #phone {
     padding-top: 50px;
@@ -232,15 +257,19 @@ font-size: 1.25em;
     font-size: 24px;
     margin-bottom: 20px;
 }
+
+/* social media links styling */
 #social-media {
     margin-top: 50px;
     padding-bottom: 20px;
 }
+
 /* styling for all site images, allowing them to grow and shrink according to screen size and resolution */
 img {
 width: 100%;
 height: auto;
 }
+
 /* Footer styling */
 footer {
     text-align: center;
@@ -248,6 +277,7 @@ footer {
     color: #ffffff;
     padding-top: 8px;
 }
+
 /* @media specific css for mobile device styling */
 @media only screen and (max-width: 500px) { 
     .card {

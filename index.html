@@ -46,7 +46,7 @@
 <!--main container to hold sections of the page-->
 <main>
   
-  <!--Intro section. used to inform the user about myself and what i am studying-->
+  <!--Intro section. used to inform the user about myself and what i am studying. Created using Bootstrap flexi collumns. Add additional collumns if neeeded for additonal content-->
   <section id="intro">
     <div class="intronest">
       <div class="row">
@@ -102,7 +102,7 @@
 </section>
 <!--Project section end-->
 
-<!--Start of About Me section. This is a short bio section detailing my background-->
+<!--Start of About Me section. This is a short bio section detailing my background, additional cards can be added if needed to add additional content.-->
 <a id="aboutme-anchor"></a>
 <section id="aboutme">
   <span style="float: right;"><a href="index.html"><i class="bi bi-chevron-double-up"></i></a></span>
@@ -142,6 +142,7 @@
 <section id="contact">
   <span style="float: right;"><a href="index.html"><i class="bi bi-chevron-double-up"></i></a></span>
   <h3>Contact Me</h3>
+  <!--Email form, not intended to function yet othen than to display popup message-->
   <div id="emailform">
     <form>
       <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
@@ -154,6 +155,8 @@
       </div>
   </form>
 </div>
+<!--End of email form-->
+
 <!-- Modal script for pop up after filling in the contact form-->
 <div class="modal fade" id="emailmodal" tabindex="-1" aria-labelledby="emailmodelLabel" aria-hidden="true">
   <div class="modal-dialog">
