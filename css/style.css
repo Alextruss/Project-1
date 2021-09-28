@@ -33,7 +33,7 @@ a {
 /* customer site logo */
 #navlogo {
     padding-right: 25px;
-    width: 85px;
+    width: 100px;
     height: 50px;
 }
 .navbar-collapse {
@@ -45,11 +45,12 @@ a {
     align-items: center;
 }
 .navbar-nav {
+    position: relative;
     display: ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding-left: 0;
+    padding-left: 0%;
     margin-bottom: 0;
     list-style: none;
     list-style-position: initial;
