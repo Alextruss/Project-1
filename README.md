@@ -102,7 +102,7 @@ Based on my initial outline for the user experience, I asked fr feedback based o
 Feedback I recieved
 
 <ul>
-<li>Immediatly understand what the message of the site is - *All three felt it instantly was clear what the sites message was.*
+<li>Immediatly understand what the message of the site is - *All three felt it instantly was clear what the sites message was*.
 <li>Easily navigate the site using navbar and return to top buttons - *No issues were reported regarding navigation and 2 out of the three stated the return to top buttons were a good feature.*
 <li>Allow visitors to contact me regrding current work and possile commisions - *This is a non functioning section of the site but each user understood how to use the feature if it were to go live.*
 <li>Allow visitors to visit my portfolio - *Each user said they liked the portfolio section and was very simple to navigate.*
