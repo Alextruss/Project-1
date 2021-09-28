@@ -13,11 +13,12 @@ First time visitor goals
 <li>Immediatly understand what the message of the site is.
 <li>Easily navigate the site using navbar and return to top buttons.
 <li>Allow visitors to contact me regrding current work and possile commisions.
+<li>Allow visitors to visit my portfolio.
 </ul>
 
 Returning visitor goals
 <ul>
-<li>Allow visitors to visit my portfolio to browse new work.
+<li>Allow visitors to revisit my portfolio and to browse new work.
 <li>Allow visitors to access my new social media links.
 </ul>
 
