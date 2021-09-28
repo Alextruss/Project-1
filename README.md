@@ -83,6 +83,8 @@ I forwarded the link and screenshots taken on my device,to 3 peers who I knew ha
 
 All three responded yes to each question.
 
+### Validation
+
 The final site was tested and validated with [WC3 HTML Validator](https://validator.w3.org/) 
 <img src="images\readme-assets\htmlvalidation.jpg" width="800px" height="auto">
 and [WC3 CSS Validator](https://jigsaw.w3.org/css-validator/). 
