@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!--Head setion containing meta data and style sheet links, incuded are links to bootstrap CSS and Java script, google fonts and my style sheet-->
   <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,14 +12,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<!--End of header section-->
-
-<!--Everything below (within the body tags) is content to be displayed in the webpage-->
 <body>
-  <!--Anchor point for my nav bar to link to for the home page-->
   <a id="home-anchor"></a>
-
-  <!--Nav bar includes all navigation elements to navigating the page. included page Logo and links to each page section.-->
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div id="navlogo"><img src="images/logosm.png" alt="AT logo image"></div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,14 +28,7 @@
       </div>
     </div>
   </nav>
-  
-  <!--End of nav section-->
-
-
-<!--main container to hold sections of the page-->
 <main>
-  
-  <!--Intro section. used to inform the user about myself and what i am studying. Created using Bootstrap flexi collumns. Add additional collumns if neeeded for additonal content-->
   <section id="intro">
     <div class="intronest">
       <div class="row">
@@ -63,23 +49,11 @@
     </div>
     </div>
   </section>
-  <!--End of intro section.-->
-
-<!--Anchor tag for Project nav link -->
 <a id="projects-anchor"></a>
-
-<!--Project  section, displayed using cards from Bootstrap-->
 <section id="projects">
-
-<!--Nav button to return to top of page from each section-->
   <span style="float: right"><a href="index.html"><i class="bi bi-chevron-double-up"></i></a></span>
   <h3>Projects</h3>
-
-  <!--project container, contains examples of past work and current projects. card class can be copied to extend to more examples.-->
     <div id="project-container">
-
-      <!--each project example is contained in card component, copy and paste below to add more-->
-
       <div class="card">
     <div class="card-body">
       <h5 class="card-title">Whiskey Drop</h5>
@@ -96,9 +70,6 @@
   </div>
   </div>
 </section>
-<!--Project section end-->
-
-<!--Start of About Me section. This is a short bio section detailing my background, additional cards can be added if needed to add additional content.-->
 <a id="aboutme-anchor"></a>
 <section id="aboutme">
   <span style="float: right;"><a href="index.html"><i class="bi bi-chevron-double-up"></i></a></span>
@@ -130,14 +101,10 @@
     </div>
   </div> 
   </section>
-<!--End of About Me section-->
-
-<!--Start of Contact section. Contains contact form and links to whatsapp, messsenger and facebook-->
 <a id="contact-anchor"></a>
 <section id="contact">
   <span style="float: right;"><a href="index.html"><i class="bi bi-chevron-double-up"></i></a></span>
   <h3>Contact Me</h3>
-  <!--Email form, not intended to function yet othen than to display popup message-->
   <div id="emailform">
     <form>
       <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
@@ -150,9 +117,6 @@
       </div>
   </form>
 </div>
-<!--End of email form-->
-
-<!-- Modal script for pop up after filling in the contact form-->
 <div class="modal fade" id="emailmodal" tabindex="-1" aria-labelledby="emailmodelLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -171,33 +135,18 @@
     </div>
   </div>
 </div>
-<!--End of modal script-->
-
-<!--Alternative contact scripts including telephone and social media links. Will link to apps on mobile devices.-->
 <div id="phone">
   <p id="contact-text">Or contact me via one of the links below.</p>
   <p><i class="bi bi-telephone">07898143031</i></p>
   <div id="social-media"><p><a href="https://www.facebook.com/profile.php?id=100066167559321" target="_blank"><i class="bi bi-facebook"></i></a><a href="https://wa.me/447898143031" target="_blank"><i class="bi bi-whatsapp"></i></a><a href="https://m.me/100066167559321" target="_blank"><i class="bi bi-messenger"></i></a></p></div>
 </div>
-<!--End of alternative contact scripts.-->
-
 </section>
-<!--End of contact section.-->
-
 </main>  
-<!--End of main container-->
-
-<!--Start of footer section-->
 <footer>
   <p>&copy; Copyright 2021 Alex Truss.
   </p>
 </footer>
-<!--End of footer section-->
-
-<!--Start Java script links. Always place JS code here to ensure it loads on page complete.-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-<!--End of footer section-->
-
 </body>
 </html> 
