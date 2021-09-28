@@ -57,10 +57,7 @@ I want to stck with a minialistic design, using greys, white and blue as my colo
 
 ### Mobile phone (Android)
 
-<img src="images/readme-assets/ssmobile1.jpg" width="300px" height="auto">
-<img src="images/readme-assets/ssmobile2.jpg" width="300px" height="auto">
-<img src="images/readme-assets/ssmobile3.jpg" width="300px" height="auto">
-
+<img src="images/readme-assets/ssmobile1.jpg" width="400px" height="auto">
 
 ## Testing
 
@@ -141,7 +138,7 @@ To clone the repository you will need to access this link, then Select the code 
 
 ## Credits (element sources)
 
-Background image used in inro section - unsplash.com:
+Background image used in intro section - unsplash.com:
 (https://images.unsplash.com/photo-1610466896927-699424f3c86d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80S)
 
 Wales outline image:
