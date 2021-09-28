@@ -83,7 +83,13 @@ I forwarded the link and screenshots taken on my device,to 3 peers who I knew ha
 
 All three responded yes to each question.
 
-The final site was tested and validated with [WC3 HTML Validator](https://validator.w3.org/) and [WC3 CSS Validator](https://jigsaw.w3.org/css-validator/). Both returned fully validated with the exception of a few warnings regarding some of the Bootstrap style. I was told this is expected and does not effect my code.
+The final site was tested and validated with [WC3 HTML Validator](https://validator.w3.org/) 
+<img src="images\readme-assets\htmlvalidation.jpg" width="800px" height="auto">
+and [WC3 CSS Validator](https://jigsaw.w3.org/css-validator/). 
+<img src="images\readme-assets\cssvalidationfail.jpg" width="800px" height="auto">
+My original css failed due to an unclosed {}.
+<img src="images\readme-assets\cssvalidationpass.jpg" width="800px" height="auto">
+After the relevant changes both returned fully validated with the exception of a few warnings regarding some of the Bootstrap style. I was told this is expected and does not effect my code.
 
 ## Deployment and cloning
 
