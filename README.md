@@ -44,13 +44,16 @@ I want to stck with a minialistic design, using greys, white and blue as my colo
 
 ## Final Design screenshots
 
-###Desktop
+### Desktop
+
 <img src="images/readme-assets/ssdesktop.jpg" width="500px" height="auto">
 
-###Ipad
+### Ipad
+
 <img src="images\readme-assets\ssipad.jpg" width="450px" height="auto">
 
-###Mobile phone (Android)
+### Mobile phone (Android)
+
 <img src="images/readme-assets/ssmobile1.jpg" width="300px" height="auto">
 <img src="images/readme-assets/ssmobile2.jpg" width="300px" height="auto">
 <img src="images/readme-assets/ssmobile3.jpg" width="300px" height="auto">
