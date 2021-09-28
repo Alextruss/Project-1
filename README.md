@@ -132,7 +132,7 @@ After the relevant changes both returned fully validated with the exception of a
 
 This website has been deployed to GitHub pages, to access [Click here](https://alextruss.github.io/Project-1/)
 
-To create and publish my project I used Github to create the repositories. This projects repository can be found at https://github.com/Alextruss/Project-1. Here you will find my original code including commentsnot found in th epublished site.
+To create and publish my project I used Github to create the repositories. This projects repository can be found at https://github.com/Alextruss/Project-1. [Here] (https://github.com/Alextruss/Project-1/releases/tag/final) you will find my original code including comments not found in the published site.
 
 To clone the repository you will need to access the link above, then Select the code button. This will give you access to clone the repository or download a zip copy of the repository.
 
