@@ -1,6 +1,6 @@
 # Milestone Project 1 - Alex Truss 
 
-<img src="images/multidevicescreen.jpg">
+<img src="images/readme-assets/multidevicescreen.jpg">
 
 ## Portfolio site
 [Click here](https://alextruss.github.io/Project-1/) for the live site.
@@ -26,7 +26,7 @@ Returning visitor goals
 I decided early on that the site needed to be a single page design to make it easier for mobile navigation. It will be a responsive design to allow it to seemlessly transition between mobile devices and desktop/laptop PC's. The site navigation will be located at the top, with links to return to top situated in each secton of the site.
 
 ### Wireframe
-<img src="images/wireframe.JPG">
+<img src="images/readme-assets/wireframe.JPG">
 
 I want to stck with a minialistic design, using greys, white and blue as my colour scheme.
 
@@ -43,18 +43,18 @@ I want to stck with a minialistic design, using greys, white and blue as my colo
 
 ## Final Design screenshots
 
-<img src="images/ssdesktop.jpg" width="500px" height="auto">
+<img src="images/readme-assets/ssdesktop.jpg" width="500px" height="auto">
 
 
-<img src="images/ssmobile1.jpg" width="300px" height="auto">
-<img src="images/ssmobile2.jpg" width="300px" height="auto">
-<img src="images/ssmobile3.jpg" width="300px" height="auto">
+<img src="images/readme-assets/ssmobile1.jpg" width="300px" height="auto">
+<img src="images/readme-assets/ssmobile2.jpg" width="300px" height="auto">
+<img src="images/readme-assets/ssmobile3.jpg" width="300px" height="auto">
 
 
 ## Testing
 My site has been tested on both desktops and a range of mobile phones.
-I ave cross platform tested on Chrome, Firefox, Safari as well as both samsungs and Huawei's defult browsers. 
-I forwarded the link and screenshots taken on my device,to 3 peers who i knew had different mobile devices. One an Iphone 12, One a Samsung S20 and the third a Huawei P30 Pro. I Asked them to rely with answers to 3 questions:
+I have cross platform tested on Chrome, Firefox, Safari as well as both samsungs and Huawei's default browsers. 
+I forwarded the link and screenshots taken on my device,to 3 peers who I knew had different mobile devices. One an Iphone 12, One a Samsung S20 and the third a Huawei P30 Pro. I Asked them to rely with answers to 3 questions:
 <ol>
 <li> Does the site display on your device in a similar manor to the screenshots in terms of layout and content?
 <li> Did you find it easy to understand and navigate the site?
@@ -67,14 +67,17 @@ The final site was tested and validated with [WC3 HTML Validator](https://valida
 
 ## Deployment and cloning
 
-To creat and publish my project I used Github to create the repositories. This one can be found at https://github.com/Alextruss/Project-1 
+To create and publish my project I used Github to create the repositories. This projects repository can be found at https://github.com/Alextruss/Project-1 
 
-to clone the repository you will need to access this link, then Select the code button. This will give you access to clone the repository or download a zip copy of the repository.
+To clone the repository you will need to access this link, then Select the code button. This will give you access to clone the repository or download a zip copy of the repository.
 
 ## Credits (element sources)
 
 Background image used in inro section - unsplash.com:
 (https://images.unsplash.com/photo-1610466896927-699424f3c86d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80S)
+
+Wales outline image:
+https://www.pikpng.com/pngvi/hThhRhT_wales-map-england-png-image-outline-map-of-wales-clipart/
 
 Navigation bar code from Bootstrap: 
 https://getbootstrap.com/docs/4.6/components/navbar/
@@ -97,5 +100,5 @@ https://icons.getbootstrap.com/
 Code Institute Graphics:
 https://codeinstitute.net/ and Emails sent to me from the Code Institute.
 
-Each of my to examples on the portfolio section are from Code Institutes examples used in the training modules.
+Each of the two examples on the portfolio section are from Code Institutes examples used in the training modules.
 

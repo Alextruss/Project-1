@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--Head setion containing meta data and style sheet links, incuded are links to bootstrap CSS and Java script, google fonts and my style sheet-->
   <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,8 +13,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
+<!--Header section end-->
+<!--End of header section-->
+
+<!--Everything below (within the body tags) is content to be displayed in the webpage-->
+
 <body>
+  <!--Anchor point for my nav bar to link to for the home page-->
   <a id="home-anchor"></a>
+
+  <!--Nav bar includes all navigation elements to navigating the page. included page Logo and links to each page section.-->
+ 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div id="navlogo"><img src="images/logosm.png" alt="AT logo image"></div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,15 +34,22 @@
       <div class="navbar-nav">
         <a class="nav-link" href="#intro-anchor">Home</a>
         <a class="nav-link" href="#projects-anchor">Projects</a>
+        <a class="nav-link" href="#aboutme-anchor">About Me</a>
         <a class="nav-link" href="#contact-anchor">Contact Me</a>
       </div>
     </div>
   </nav>
+  
+  <!--End of nav section-->
+
+
+<!--main container to hold sections of the page-->
 <main>
+  
+  <!--Intro section. used to inform the user about myself and what i am studying-->
   <section id="intro">
     <div class="intronest">
       <div class="row">
-        <!--col-sm taken from Bootstrap grid layout-->
         <div class="col-sm">
          <h4>Hello and welcome to not only my portfolio but also my journey.</h4>
          <p>Since gaining my HND in Interactive Digital Media in 2003, my life took a different route.</p>
@@ -49,11 +67,23 @@
     </div>
     </div>
   </section>
+  <!--End of intro section.-->
+
+<!--Anchor tag for Project nav link -->
 <a id="projects-anchor"></a>
+
+<!--Project  section, displayed using cards from Bootstrap-->
 <section id="projects">
+
+<!--Nav button to return to top of page from each section-->
   <span style="float: right"><a href="index.html"><i class="bi bi-chevron-double-up"></i></a></span>
   <h3>Projects</h3>
-<div id="project-container">
+
+  <!--project container, contains examples of past work and current projects. card class can be copied to extend to more examples.-->
+    <div id="project-container">
+
+      <!--each project example is contained in card component, copy and paste below to add more-->
+
       <div class="card">
     <div class="card-body">
       <h5 class="card-title">Whiskey Drop</h5>
@@ -70,6 +100,45 @@
   </div>
   </div>
 </section>
+<!--Project section end-->
+
+<!--Start of About Me section. This is a short bio section detailing my background-->
+<a id="aboutme-anchor"></a>
+<section id="aboutme">
+  <span style="float: right;"><a href="index.html"><i class="bi bi-chevron-double-up"></i></a></span>
+  <h3>About Me</h3>
+  <div id="aboutme-card">
+    <div class="card-body">
+      <img src="images/walesimg.png" id="walesimg" alt="Image of Wales">
+      <p>
+        Based in Mid-Wales, surrounded by natural beauty I have always had an interest in Web Design and Photography. Although my life took a different direction
+        and I ended up working in retail management, I have always wanted to push myself back into my first love, Web design and digital arts. From my first website built through trial and
+      and error and examining source code, I was hooked. Weeks and months spent lost in tables and setting fonts to Comic Sans taught me the basics, but 
+      I always knew I wanted to know more. 
+      </p>
+      <p>
+      With limited access to resources and no access to any academic tuiton, I taught myself everything i knew 
+      through trial and error and reading online tutorials to help develop my coding knowledge.
+      </p>
+      <p>I attended Swansea college to study Interactive Digital Multimedia, and graduated with a HND. In my time there I studied:
+      <ul>
+        <li>Video Editing</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Flash Action Script</li>
+        <li>Image editing using Photoshop and Illustrator</li>
+      </ul>
+    </p>
+</p>
+<p>
+  In recent years I have been working in my spare time on various Wordpress and Joomla projects.
+</p>
+    </div>
+  </div> 
+  </section>
+<!--End of About Me section-->
+
+<!--Start of Contact section. Contains contact form and links to whatsapp, messsenger and facebook-->
 <a id="contact-anchor"></a>
 <section id="contact">
   <span style="float: right;"><a href="index.html"><i class="bi bi-chevron-double-up"></i></a></span>
@@ -86,6 +155,7 @@
       </div>
   </form>
 </div>
+<!-- Modal script for pop up after filling in the contact form-->
 <div class="modal fade" id="emailmodal" tabindex="-1" aria-labelledby="emailmodelLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -104,18 +174,37 @@
     </div>
   </div>
 </div>
+<!--End of modal script-->
+
+<!--Alternative contact scripts including telephone and social media links. Will link to apps on mobile devices.-->
 <div id="phone">
   <p id="contact-text">Or contact me via one of the links below.</p>
   <p><i class="bi bi-telephone">07898143031</i></p>
-<div id="social-media"><p><a href="https://www.facebook.com/profile.php?id=100066167559321"><i class="bi bi-facebook"></i></a><a href="https://wa.me/447898143031"><i class="bi bi-whatsapp"></i></a><a href="https://m.me/100066167559321"><i class="bi bi-messenger"></i></a></p></div>
+  <div id="social-media"><p><a href="https://www.facebook.com/profile.php?id=100066167559321" target="_blank"><i class="bi bi-facebook"></i></a><a href="https://wa.me/447898143031" target="_blank"><i class="bi bi-whatsapp"></i></a><a href="https://m.me/100066167559321" target="_blank"><i class="bi bi-messenger"></i></a></p></div>
 </div>
+<!--End of alternative contact scripts.-->
+
 </section>
+<!--End of contact section.-->
+
 </main>  
+<!--End of main container-->
+
+<!--Start of footer section-->
+
 <footer>
   <p>&copy; Copyright 2021 Alex Truss.
   </p>
 </footer>
+
+<!--End of footer section-->
+
+<!--Start Java script links. Always place JS code here to ensure it loads on page complete.-->
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+<!--End of footer section-->
+
 </body>
-</html>
+</html> 
