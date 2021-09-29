@@ -61,7 +61,7 @@ I want to stck with a minialistic design, using greys, white and blue as my colo
 
 ## Testing
 
-### Basic Use Test
+### Basic manual Use Test
 
 MY first test was to manually test each link and element on the site. I carried out this test on both desktop and mobile devices. Each link in the navigation bar worked as expected, opening in a new tab. Each <img src="images\readme-assets\rtnhome.jpg" width="50px" height="auto"> succesfully returned the page to the top nav bar.
 When tested on mobile devices the social media links successfully loaded the relevent app and allowed for expected usage.
@@ -128,11 +128,23 @@ My original css failed due to an unclosed {}.
 <img src="images\readme-assets\cssvalidationpass.JPG" width="800px" height="auto">
 After the relevant changes both returned fully validated with the exception of a few warnings regarding some of the Bootstrap style. I was told this is expected and does not effect my code.
 
+## Future updates
+
+I want to use the site to track my progress through the course and display future projects, both from the course and real life works I am undertaking. This can be easy displayed by modifying the intro section as such a large part of it is taken up with a place holding image until forther news is available. 
+
+FOr future additions to the folio section, adding additional cards (copying and pasting from the examples currrently on the page and changing the img src and link address) the section will be able to grow, whilst still maintaining it flex grid format.
+
 ## Deployment and cloning
 
 This website has been deployed to GitHub pages, to access [Click here](https://alextruss.github.io/Project-1/)
 
-To create and publish my project I used Github to create the repositories. This projects repository can be found at https://github.com/Alextruss/Project-1. [Click Here](https://github.com/Alextruss/Project-1/releases/tag/final) to find my original code including comments not found in the published site.
+In order test deployed version versus the development version I opening both in the same browser and tested everything worked and viewed the same.
+<img src="images\readme-assets\comparison.jpg" width="800px" height="auto">
+
+
+To create and publish my project I used Github to create the repositories. This projects repository can be found at https://github.com/Alextruss/Project-1. 
+
+[Click Here](https://github.com/Alextruss/Project-1/releases/tag/final) to find my original code including comments not found in the published site.
 
 To clone the repository you will need to access the link above, then Select the code button. This will give you access to clone the repository or download a zip copy of the repository.
 
